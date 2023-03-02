@@ -17,48 +17,21 @@ Easy
 
 ## Setup
 1. Create the following files:
-  - index.html
+  - index.html (provided)
   - style.css
   - script.js
 
-2. In your index.html file link your css and js files in their respective lines, initialize the following code:
+2. Check to see if your CSS and JS files are linked correctly in index.html
 
 ```<link rel="stylesheet" href="style.css">```
 ```<script src="script.js"></script>```
 ## Part I: HTML
-1. Create the following HTML elements between the ```body``` tags with the following nested structure:
-     - ```div``` with the id of "container" 
-       - ```h1``` tag with the inner HTML "Tip Calculator".
-       - ```p``` tag with the inner HTML "Tip your waiters!" (You can customize this message).
-       - ```div``` with the ```id``` of "boxes". This div will hold the squares of each input section
-          - ```div``` with the ```class``` of "input-section". This div will hold the bill amount input.
-            - ```h3``` tag with the inner HTML "Bill Amount".
-            - ```p``` tag with the inner HTML "Enter the total amount on your bill" (You can customize this message).
-            - ```input``` with the ```id``` of "bill", ```type``` of "number", ```placeholder``` of "$"
-          - ```div``` with the ```class``` of "input-section". This div will hold tip percentage.
-            - ```h3``` tag with the inner HTML "Rate the Service".
-            - ```p``` tag with the inner HTML "How was your experience?" (You can customize this message).
-            - ```select``` with the ```id``` of "rating" *Note: You can customize the following option tags to whatever percentages and inner HTML to whatever you want :)*
-              - ```option``` tag with ```disabled selected value``` of "0" and the inner HTML "--- Rating ---"
-              - ```option``` tag with ```value``` of "0.10" and the inner HTML "Bad - 10%"
-              - ```option``` tag with ```value``` of "0.18" and the inner HTML "OK - 18%"
-              - ```option``` tag with ```value``` of "0.35" and the inner HTML "Good - 35%"
-              - ```option``` tag with ```value``` of "0.50" and the inner HTML "0.50 - 50%"
-          - ```div``` with the ```class``` of "input-section". This div will hold the amount of people splitting the bill.
-             - ```h3``` tag with the inner HTML "Splitting the Bill?
-             - ```p``` tag with the inner HTML "How many people are sharing the bill?" (You can customize this message).
-             - ```input``` with the ```id``` of "people", ```type``` of "number", ```value``` of "0"
-       - ```div``` with the ```id``` of "calculate-button"
-         - ```button``` tag with the ```id``` of "calculate" and inner HTML of "Calculate!"
-       - ```div``` with the ```id``` of "totalTip".
-         - ```h2``` tag with the inner HTML "Tip Per Person".
-         - ```h3``` tag
-            - ```sup``` tag with the inner HTML of "$"
-            - ```span``` tag with the ```id``` of "tip" and inner HTML of "0.00" 
-       - ```div``` with the ```id``` of "billPerPerson"
-         - ```h3``` tag
-           - ```sup``` tag with the inner HTML of "$"
-           - ```span``` tag with the ```id``` of "perPersonBill" and inner HTML of "0.00"          
+1. Most of the code in the index.html file has been provided for your convenience. Look through the code and make sense of it. Ask your mentor questions if you do not understand something.
+
+2. Write percentage values in the value attributes and messages in the option tags (around lines 24-29).
+     - Make sure value attributes are in decimal form
+     - Ex. 20% is 0.20, 42% is 0.42, etc.
+     - Refer to screenshot for an idea of how to create your rating system.
                     
 ## Part II: CSS
 1. Target the ```body``` element
@@ -68,7 +41,7 @@ Easy
 2. Target the ```container``` id
      - set ```max-width``` to ```800px```
      - set ```margin``` to ```16px auto```
-     - set ```background``` to ```white```
+     - set ```background``` to color of choice
      - set ```padding``` to ```30px```
      - set ```border-radius``` to ```10px```
      
@@ -77,9 +50,11 @@ Easy
      
 4. Target the ```input-sections``` class 
      - set ```padding``` to ```16px```
-     - set ```border``` to ```1px solid black```
+     - set ```border``` to ```1px color of choice```
      - set ```margin-right``` to ```16px```
      - set ```border-radius``` to ```16px```
+     - set ```background-color``` to color of choice
+
      
 5. Target the ```calculate-button``` id
      - set ```margin-top``` to ```16px```
