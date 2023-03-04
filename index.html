@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Tip Calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="container">
+    <h1>Tip Calculator</h1>
+    <p>Tip your waiters!</p>
+    <div id="boxes">
+      <div class="input-section">
+        <h3>Bill Amount</h3>
+        <p>Enter the total amount on your bill</p>
+        <input id="bill" type="number" placeholder="$">
+      </div>
+      <div class="input-section">
+        <h3>Rate the Service</h3>
+        <p>How was your experience?</p>
+        <!--customize your rating/message system in between the option tags-->
+        <!--refer to sample screenshot on github instruction page for an idea-->
+        <select id="rating">
+          <option disabled selected value="0">-- Rating --</option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+          <option value=""></option>
+        </select>
+      </div>
+      <div class="input-section">
+        <h3>Splitting the Bill?</h3>
+        <p>How many people are sharing the bill?</p>
+        <input id="people" type="number" value="0">
+      </div>
+    </div>
+    <div id="calculate-button">
+      <button id="calculate">Calculate!</button>
+    </div>
+    <div id="totalTip">
+      <h2>Tip Per Person</h2>
+      <h3><sup>$</sup><span id="tip">0.00</span></h3>
+    </div>
+    <div id="billPerPerson">
+      <h2>Total Bill Per Person</h2>
+      <h3>
+        <sup>$</sup>
+        <span id="perPersonBill">0.00</span>
+      </h3>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
