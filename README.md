@@ -95,7 +95,7 @@ When this function is called, it will return the value in tipPerPerson.
          ```
 When this function is called, it will return the value in billPerPerson.
 
-3. Create an onlick event function when the calculate button is clicked. This will display the results of the calculations.
+3. Create an onclick event function when the calculate button is clicked. This will display the results of the calculations.
      ``` javascript
      document.getElementById("calculate").onclick = function() {
        //code here
