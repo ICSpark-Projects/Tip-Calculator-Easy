@@ -68,7 +68,7 @@ Easy
        - ```javascript
          //round to nearest hundredth
          tipPerPerson = Math.round(tipPerPerson * 100) / 100;
-         // 2 decimal plaes
+         // 2 decimal places
          tipPerPerson = tipPerPerson.toFixed(2);
          ```
 When this function is called, it will return the value in tipPerPerson.
@@ -90,7 +90,7 @@ When this function is called, it will return the value in tipPerPerson.
        - ```javascript
          //round to nearest hundredth
          billPerPerson = Math.round(billPerPerson * 100) / 100;
-         // 2 decimal plaes
+         // 2 decimal places
          billPerPerson = billPerPerson.toFixed(2);
          ```
 When this function is called, it will return the value in billPerPerson.
