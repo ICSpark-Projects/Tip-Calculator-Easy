@@ -60,7 +60,7 @@ Easy
      - set ```margin-top``` to ```16px```
 
 ## Part III: JS
-1. Create a function called calculateTip that takes in no parameters. This will calculate the tip per person. In this function create the following:
+1. Create a function called calculateTip that takes in no arguments. This will calculate the tip per person. In this function create the following:
      - Set the value of the ```bill``` element in a ```var``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
      - Set the value of the ```rating``` element in a ```var``` variable called "serviceRating" using the DOM method ```document.getElementById("yourelementid").value``` 
      - Set the value of the ```people``` element in a ```var``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
@@ -75,11 +75,9 @@ Easy
          // 2 decimal plaes
          tipPerPerson = tipPerPerson.toFixed(2);
          ```
-     - Return the final value that we want by: ```return tipPerPerson``` 
-
 When this function is called, it will return the value in tipPerPerson.
 
-2. Create a function called calculateBill that takes in no parameteres. This will calculate the total bill each person has to pay. In this function create the following:
+2. Create a function called calculateBill that takes in no arguments. This will calculate the total bill each person has to pay. In this function create the following:
      - Set the value of the ```bill``` element in a ```var``` variable called "bill" using the DOM method ```document.getElementById("yourelementid").value```
      - Set the value of the ```people``` element in a ```var``` variable called "numOfPeople" using the DOM method ```document.getElementById("yourelementid").value```
      - ```ex. var variableName = document.getElementById("yourelementid").value```
@@ -99,9 +97,6 @@ When this function is called, it will return the value in tipPerPerson.
          // 2 decimal plaes
          billPerPerson = billPerPerson.toFixed(2);
          ```
- 
-     - ```return billPerPerson```
-
 When this function is called, it will return the value in billPerPerson.
 
 3. Create an onlick event function when the calculate button is clicked. This will display the results of the calculations.
