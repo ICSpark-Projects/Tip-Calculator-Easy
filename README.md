@@ -102,9 +102,9 @@ When this function is called, it will return the value in billPerPerson.
      };
      ```
      - Inside the function, do the following:
-       - ```document.getElementId("tip").innerHTML```
+       - ```document.getElementById("tip").innerHTML```
        - Call the ```calculateTip``` function and set that to equal to the line above
-       - ```document.getElementId("perPersonBill").innerHTML```
+       - ```document.getElementById("perPersonBill").innerHTML```
        - call the ```calculateBill``` function and set that to equal to the line above
        - Example:
        ```javascript
