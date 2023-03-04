@@ -51,8 +51,6 @@ Easy
      - set ```border``` to ```1px color of choice```
      - set ```margin-right``` to ```16px```
      - set ```border-radius``` to ```16px```
-     - set ```background-color``` to color of choice
-
      
 5. Target the ```calculate-button``` id
      - set ```margin-top``` to ```16px```
