@@ -23,8 +23,6 @@ Easy
 
 2. Check to see if your CSS and JS files are linked correctly in index.html
 
-```<link rel="stylesheet" href="style.css">```
-```<script src="script.js"></script>```
 ## Part I: HTML
 1. Most of the code in the index.html file has been provided for your convenience. Look through the code and make sense of it. Ask your mentor questions if you do not understand something.
 
